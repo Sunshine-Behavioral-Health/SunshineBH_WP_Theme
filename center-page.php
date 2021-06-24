@@ -224,8 +224,8 @@ $centerValue = get_field('center');
             </div>
         </section>
 
-        <section class="center_page_insurance_form_section">
-            <div class="center_page_insurance_form_container" style="background-image: url(<?php echo get_field('center_page_insurance_section_background_image')['url'] ?>)">
+        <section class="center_page_insurance_form_section" style="background-image: url(<?php echo get_field('center_page_insurance_section_background_image')['url'] ?>)">
+            <div class="center_page_insurance_form_container">
                 <div class="center_page_insurance_form_content_wrapper">
                     <div class="center_page_insurance_form_top_cta_container hide_on_tablet hide_on_desktop">
                         <?php $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
