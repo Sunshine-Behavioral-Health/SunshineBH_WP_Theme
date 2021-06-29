@@ -3,13 +3,13 @@
     <?php if ($centerValue == "Chapters Capistrano") : ?>
         <img class="page_desktop_image hero_image hide_on_mobile show_on_tablet" src="<?php echo get_field('chapters_capistrano_hero_desktop', 'option')['url'] ?>">
     <?php elseif ($centerValue == "Lincoln Recovery") : ?>
-        <img class="page_desktop_image hero_image hide_on_mobile show_on_tablet" src="<?php echo get_field('willow_springs_hero_desktop', 'option')['url'] ?>">
-    <?php elseif ($centerValue == "Monarch Shores") : ?>
         <img class="page_desktop_image hero_image hide_on_mobile show_on_tablet" src="<?php echo get_field('lincoln_recovery_hero_desktop', 'option')['url'] ?>">
-    <?php elseif ($centerValue == "Mountain Springs") : ?>
+    <?php elseif ($centerValue == "Monarch Shores") : ?>
         <img class="page_desktop_image hero_image hide_on_mobile show_on_tablet" src="<?php echo get_field('monarch_shores_hero_desktop', 'option')['url'] ?>">
-    <?php elseif ($centerValue == "Willow Springs") : ?>
+    <?php elseif ($centerValue == "Mountain Springs") : ?>
         <img class="page_desktop_image hero_image hide_on_mobile show_on_tablet" src="<?php echo get_field('mountain_springs_hero_desktop', 'option')['url'] ?>">
+    <?php elseif ($centerValue == "Willow Springs") : ?>
+        <img class="page_desktop_image hero_image hide_on_mobile show_on_tablet" src="<?php echo get_field('willow_springs_hero_desktop', 'option')['url'] ?>">
     <?php elseif ($centerValue == "Sunshine Behavioral Health") : ?>
         <img class="page_desktop_image hero_image hide_on_mobile show_on_tablet" src="<?php echo get_field('sunshine_hero_desktop', 'option')['url'] ?>">
     <?php else : ?>
@@ -19,13 +19,13 @@
     <?php if ($centerValue == "Chapters Capistrano") : ?>
         <img class="page_mobile_image hero_image hide_on_desktop hide_on_tablet" src="<?php echo get_field('chapters_capistrano_hero_mobile', 'option')['url'] ?>">
     <?php elseif ($centerValue == "Lincoln Recovery") : ?>
-        <img class="page_mobile_image hero_image hide_on_desktop hide_on_tablet" src="<?php echo get_field('willow_springs_hero_mobile', 'option')['url'] ?>">
-    <?php elseif ($centerValue == "Monarch Shores") : ?>
         <img class="page_mobile_image hero_image hide_on_desktop hide_on_tablet" src="<?php echo get_field('lincoln_recovery_hero_mobile', 'option')['url'] ?>">
-    <?php elseif ($centerValue == "Mountain Springs") : ?>
+    <?php elseif ($centerValue == "Monarch Shores") : ?>
         <img class="page_mobile_image hero_image hide_on_desktop hide_on_tablet" src="<?php echo get_field('monarch_shores_hero_mobile', 'option')['url'] ?>">
-    <?php elseif ($centerValue == "Willow Springs") : ?>
+    <?php elseif ($centerValue == "Mountain Springs") : ?>
         <img class="page_mobile_image hero_image hide_on_desktop hide_on_tablet" src="<?php echo get_field('mountain_springs_hero_mobile', 'option')['url'] ?>">
+    <?php elseif ($centerValue == "Willow Springs") : ?>
+        <img class="page_mobile_image hero_image hide_on_desktop hide_on_tablet" src="<?php echo get_field('willow_springs_hero_mobile', 'option')['url'] ?>">
     <?php elseif ($centerValue == "Sunshine Behavioral Health") : ?>
         <img class="page_mobile_image hero_image hide_on_desktop hide_on_tablet" src="<?php echo get_field('sunshine_hero_mobile', 'option')['url'] ?>">
     <?php else : ?>
