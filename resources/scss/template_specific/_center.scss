@@ -299,6 +299,9 @@
       border-right: 2px solid var(--willow_primary);
       border-bottom: 2px solid var(--willow_primary);
       border-left: 2px solid var(--willow_primary);
+      &:first-child {
+        border-top: 2px solid var(--willow_primary);
+      }
     }
   }
 }
