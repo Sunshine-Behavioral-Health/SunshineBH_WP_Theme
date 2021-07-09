@@ -68,7 +68,6 @@ $centerValue = get_field('center');
                     <div class="center_page_location_content_wrapper">
                         <?php echo get_field('center_page_-_location_content_wysiwyg') ?>
                     </div>
-
                     <div class="center_page_location_iframe_wrapper">
                         <?php if ($centerValue == "Chapters Capistrano") : ?>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.724328088017!2d-117.63236908449115!3d33.43043075768753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcf40f3530b4cd%3A0xe9dceac46fd44fd4!2s1525%20Buena%20Vista%2C%20San%20Clemente%2C%20CA%2092672!5e0!3m2!1sen!2sus!4v1619809011507!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
